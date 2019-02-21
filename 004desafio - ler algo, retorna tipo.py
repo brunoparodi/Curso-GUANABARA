@@ -1,0 +1,5 @@
+x = input('Informe algo: ')
+print('O tipo primitivo de "{}" é: "{}"'.format(x, type(x)))
+print('"{}" é numérico? Resposta: {}'.format(x, x.isnumeric()))
+print('"{}" é alfabético? Resposta: {}'.format(x, x.isalpha()))
+print('"{}" é alfanumérico? Resposta: {}'.format(x, x.isalnum()))
